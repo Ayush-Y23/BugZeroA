@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: autonomous-incident-fix-agent
+Version: 0.1.0
+Summary: Service that runs a multi-stage AI pipeline to understand, analyze, and fix code incidents.
+Author: Ayush
+Requires-Python: >=3.10
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: uvicorn[standard]>=0.30.0
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: pydantic-settings>=2.4.0
